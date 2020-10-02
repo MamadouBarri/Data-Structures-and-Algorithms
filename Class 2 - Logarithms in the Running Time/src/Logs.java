@@ -1,6 +1,9 @@
-public class Logs {
+public class Logs
+{
 
-    public static <AnyType extends Comparable<? super AnyType>> int binarySearch(AnyType [] arr, AnyType x){
+    // Binary Search Algorithm in O(logN) with sorted input
+    public static <AnyType extends Comparable<? super AnyType>> int binarySearch(AnyType [] arr, AnyType x)
+    {
         int res = -1;
         int low = 0, high = arr.length - 1;
         while(low <= high)
@@ -19,8 +22,21 @@ public class Logs {
         }
         return res;
     }
+
+    // Computing GCD with Euclid's Algorithm
+    public static long gcd(long m, long n)
+    {
+        while(n != 0)
+        {
+            long rem = m % n;
+            m = n;
+            n = rem;
+        }
+        return m;
+    }
+
     public static void main(String[] args) {
         Integer[] arr = new Integer[]{-100, 1, 2, 3, 4, 5, 6, 10, 46};
-        System.out.println( "Index: " + binarySearch(arr, -100));
+        System.out.println( "Binary Search: " + (binarySearch(arr, -100) == 0));
     }
 }
