@@ -81,7 +81,6 @@ public class Main {
             if (rightBorderSum > maxRightBorderSum)
                 maxRightBorderSum = rightBorderSum;
         }
-
         return Collections.max(Arrays.asList(new Integer[]{maxLeftSum,maxRightSum ,
                                              maxRightBorderSum + maxLeftBorderSum}));
     }
