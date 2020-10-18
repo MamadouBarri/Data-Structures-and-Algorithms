@@ -1,3 +1,7 @@
+
+
+
+
 <p align="center">
 
   <h3 align="center"> :zap: Data Stuctures and Algorithms in Java :zap:</h3>
@@ -33,10 +37,11 @@ Amortized Analysis
 ### References
 
 This course uses Mark Allen Weiss' book:
-* [ Data structures and Algorithm Analysis in Java](https://www.python.org/)  by Mark Allen Weiss
+* [ Data structures and Algorithm Analysis in Java](https://www.amazon.ca/Data-Structures-Algorithm-Analysis-Java/dp/0132576279)  by Mark Allen Weiss
 
 
 ## License
 
 Distributed under the MIT License.
+
 
